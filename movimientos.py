@@ -87,6 +87,7 @@ def obtener_nombre_pieza(simbolo):
 
 #obtener_nombre_pieza('q')
 
+
 def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
     # Valido que se este moviendo una torre
     if tablero[y_inicial][x_inicial].lower() == 't':
