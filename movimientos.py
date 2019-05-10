@@ -51,6 +51,7 @@ def obtener_nombre_pieza(simbolo):
     else:
         return 'No es una pieza'
 
+
 # def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
 #     '''
 #     ([][],int,int,int,int)-> [][]: tablero resultante.
