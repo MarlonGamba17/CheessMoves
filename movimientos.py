@@ -17,7 +17,6 @@ def tablero_a_cadena(tablero):
     return cadena
 
 
-
 def obtener_nombre_pieza(simbolo):
     """
     (str) -> str
