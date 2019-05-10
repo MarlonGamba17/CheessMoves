@@ -123,7 +123,7 @@ def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
         else:
             raise Exception('Movimiento invalido para la torre')
 
-        if tablero[y_final][x_inicial] == ' ' \ or (tablero[y_inicial][x_inicial].islower() != tablero[y_final][x_inicial].islower()):
+        if tablero[y_final][x_inicial] == ' ' or (tablero[y_inicial][x_inicial].islower() != tablero[y_final][x_inicial].islower()):
             tablero[y_final][x_inicial] = tablero[y_inicial][x_inicial]
             tablero[y_inicial][x_inicial] = ' '
         else:
@@ -133,22 +133,22 @@ def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
         raise Exception('La pieza en x = {0} y={1} no es una torre'.format(x_inicial,y_inicial))
     return tablero
 
-def mover_reina(tablero, x_inicial, y_inicial, x_final, y_final):
-    '''
-    ([][],int,int,int,int)-> [][]: tablero resultante.
-    :param tablero: [][]: matriz con la posicion de las fichas
-    :param x_inicial: int: entero indocando posicion en x inicial
-    :param y_inicial: int: entero indocando posicion en y inicial
-    :param x_final: int: entero indocando posicion en x final
-    :param y_final: int: entero indocando posicion en y final
-    :return: [][] tablero resultante
-    '''
-    # Valido que se este moviendo una torre
-    if tablero[y_inicial][x_inicial].lower() == 't':
-
-    ficha = tablero[x_inicial][x_inicial]
-
-    if (mover_torre(tablero,x_inicial,y_inicial,x_final,y_final)):
-        print('se realizo el movimiento efectivamente')
-
-print(mover_reina(tablero, 1, 5, 1, 7))
+# def mover_reina(tablero, x_inicial, y_inicial, x_final, y_final):
+#     '''
+#     ([][],int,int,int,int)-> [][]: tablero resultante.
+#     :param tablero: [][]: matriz con la posicion de las fichas
+#     :param x_inicial: int: entero indocando posicion en x inicial
+#     :param y_inicial: int: entero indocando posicion en y inicial
+#     :param x_final: int: entero indocando posicion en x final
+#     :param y_final: int: entero indocando posicion en y final
+#     :return: [][] tablero resultante
+#     '''
+#     # Valido que se este moviendo una torre
+#     if tablero[y_inicial][x_inicial].lower() == 't':
+#
+#     ficha = tablero[x_inicial][x_inicial]
+#
+#     if (mover_torre(tablero,x_inicial,y_inicial,x_final,y_final)):
+#         print('se realizo el movimiento efectivamente')
+#
+# print(mover_reina(tablero, 1, 5, 1, 7))
