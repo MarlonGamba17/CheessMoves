@@ -51,8 +51,6 @@ def obtener_nombre_pieza(simbolo):
     else:
         return 'No es una pieza'
 
-
-
 # def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
 #     '''
 #     ([][],int,int,int,int)-> [][]: tablero resultante.
@@ -88,7 +86,6 @@ def obtener_nombre_pieza(simbolo):
 #print(mover_torre(tablero, 1, 1, 5, 1))
 
 #obtener_nombre_pieza('q')
-
 
 def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
     # Valido que se este moviendo una torre
@@ -135,6 +132,11 @@ def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
         raise Exception('La pieza en x = {0} y={1} no es una torre'.format(x_inicial,y_inicial))
     return tablero
 
+# def mover_alfil(tablero, x_inicial, y_inicial, x_final, y_final):
+#     if tablero[y_inicial][x_inicial].lower() == 'q':
+#
+#
+#
 # def mover_reina(tablero, x_inicial, y_inicial, x_final, y_final):
 #     '''
 #     ([][],int,int,int,int)-> [][]: tablero resultante.
@@ -146,11 +148,10 @@ def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
 #     :return: [][] tablero resultante
 #     '''
 #     # Valido que se este moviendo una torre
-#     if tablero[y_inicial][x_inicial].lower() == 't':
+#     if tablero[y_inicial][x_inicial].lower() == 'q':
 #
-#     ficha = tablero[x_inicial][x_inicial]
-#
-#     if (mover_torre(tablero,x_inicial,y_inicial,x_final,y_final)):
-#         print('se realizo el movimiento efectivamente')
+#         ficha = tablero[x_inicial][x_inicial]
+#         if (mover_torre(tablero,x_inicial,y_inicial,x_final,y_final)):
+#             print('se realizo el movimiento efectivamente')
 #
 # print(mover_reina(tablero, 1, 5, 1, 7))
