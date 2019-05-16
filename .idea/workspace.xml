@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="635ac5c3-454c-4de8-b183-1e31f6412997" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CheessMoves.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CheessMoves.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movimientos.py" beforeDir="false" afterPath="$PROJECT_DIR$/movimientos.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movimientos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="300" column="59" selection-start-line="300" selection-start-column="59" selection-end-line="300" selection-end-column="59" />
+            <state relative-caret-position="308">
+              <caret line="298" column="71" lean-forward="true" selection-start-line="298" selection-start-column="71" selection-end-line="298" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -138,12 +136,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557442896704</updated>
       <workItem from="1557979572737" duration="3241000" />
-      <workItem from="1558043490963" duration="2010000" />
+      <workItem from="1558043490963" duration="2855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5251000" />
+    <option name="totallyTimeSpent" value="6096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -181,8 +179,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/movimientos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="300" column="59" selection-start-line="300" selection-start-column="59" selection-end-line="300" selection-end-column="59" />
+        <state relative-caret-position="308">
+          <caret line="298" column="71" lean-forward="true" selection-start-line="298" selection-start-column="71" selection-end-line="298" selection-end-column="71" />
         </state>
       </provider>
     </entry>

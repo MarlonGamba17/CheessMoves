@@ -284,25 +284,27 @@ def mover_alfil(tablero, x_inicial, y_inicial, x_final, y_final):
         colorFicha = tablero[x_inicial][y_inicial].islower()
 
         if (esAlfil):
-
                 if (deltaX == deltaY):
                     if (x_inicial != x_final and y_inicial != y_final):
-                        j = y_inicial + 1
-                        for i in range(x_inicial + 1, x_final + 1):
-                            if (tablero[i][j] == ' '):
-                                tablero[i][j] = ficha
-                                j = j + 1
+                        mov_y = y_inicial + 1
+                        for mov_x in range(x_inicial + 1, x_final + 1):
+                            if (tablero[mov_x][mov_y] == ' '):
+                                tablero[mov_x][mov_y] = ficha
+                                tablero[x_inicial][y_inicial] = ' '
+                                mov_y = mov_y + 1
                                 continue
                             else:
-                                if (colorFicha != tablero[i][j].islower()):
-                                    tablero[i][j] = ficha
+                                if (colorFicha != tablero[mov_x][mov_y].islower()):
+                                    tablero[mov_x][mov_y] = ficha
+                                    tablero[x_inicial][y_inicial] = ' '
                                     break
                                 else:
-                                    print('Camino bloqueado')
+                                    print('Camino bloqueado por ficha aliada.')
+                                    break
                     else:
-                        print('No se ha movido la ficha')
+                        print('No se ha movido el alfil')
                 else:
-                    print('Movimiento invalido.')
+                    print('Movimiento invalido. El alfil se debe mover en diagonal')
         else:
             print('La ficha no es un alfil.')
     else:
